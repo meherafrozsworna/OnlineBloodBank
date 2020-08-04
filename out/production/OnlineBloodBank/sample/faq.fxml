@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="faqPane" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.faqController">
+   <children>
+      <VBox layoutX="2.0" layoutY="90.0" prefHeight="404.0" prefWidth="697.0" spacing="10.0">
+         <children>
+            <Text fill="RED" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I HAVE CREATED AN ACCOUNT WITH WRONG BLOOD GROUP" wrappingWidth="664.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Just go to your account and edit the existing blood group with proper blood group" wrappingWidth="604.74609375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="WHAT ARE THE MINIMUM REQUIREMENTS TO BECOME A BLOOD DONOR?" wrappingWidth="578.744140625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="You must be at least 18 years of age , minimum of 50 kgs, and basic good health" wrappingWidth="576.04931640625">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="RED" layoutX="10.0" layoutY="32.0" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IS THERE ANYTHING I SHOULD DO BEFORE  BLOOD DONATE?" wrappingWidth="663.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Be sure to eat well at your regular mealtimes and drink plenty of fluids before and after donation" wrappingWidth="547.74609375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="RED" layoutX="10.0" layoutY="32.0" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOW CAN I ADD A REQUEST?" wrappingWidth="664.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go to add request ,fill the form and send it" wrappingWidth="661.74609375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="RED" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I WANT TO DELETE MY REQUEST AS I MANAGE BLOOD" wrappingWidth="664.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Go to request list and select blood group you added and press delete" wrappingWidth="602.74609375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </VBox>
+      <Label layoutX="21.0" layoutY="31.0" prefHeight="53.0" prefWidth="223.0" text="FAQ" textFill="#9a4137">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="backButton" buttonType="RAISED" layoutX="409.0" layoutY="502.0" onAction="#backButtonAction" prefHeight="62.0" prefWidth="146.0" ripplerFill="#ffecec" style="-fx-background-color: ffbaba;" text="Back">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+.bodybg{
+
+    -fx-background-color : #f44336 ;
+}
+.button{
+     -fx-background-color : #FFFFFF ;
+}
+.bodyAdmin{
+    -fx-background-color : #ffcdd2 ;
+}
+.buttonAdmin{
+     -fx-background-color : #FAFAFA ;
+}
